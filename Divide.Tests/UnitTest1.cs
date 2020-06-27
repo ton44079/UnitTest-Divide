@@ -11,6 +11,7 @@ namespace Divide.Tests
         [InlineData(-10, 5, -2)]
         [InlineData(-10, -5, 2)]
         [InlineData(0, -7, 0)]
+        [InlineData(10, 6, 1)] // decimal none cause int / int
         [InlineData(27, 10, 2)] // decimal none cause int / int
         [InlineData(5, 10, 0)] // decimal none cause int / int
         [InlineData(-2, -7, 0)]// decimal none cause int / int
